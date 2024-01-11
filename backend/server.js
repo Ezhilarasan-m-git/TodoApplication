@@ -94,7 +94,7 @@ app.patch("/todos/:id/done", async (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://root:PNEoZEIU5ajO6EQp@test.jz2qknw.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://root:root@test.o5cgtku.mongodb.net/"
   )
   .then(() => {
     app.listen(8000, () => console.log("Server is running"));
